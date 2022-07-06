@@ -1,5 +1,5 @@
-# Special `.github` Repository
-🔧⚙ Default configuration for all my GitHub repos
+# Default Community Files
+🔧⚙ Default repo config files for [all `jcbhmr/*` repositories](https://github.com/jcbhmr?tab=repositories)
 
 <br>
 <div align="center">
