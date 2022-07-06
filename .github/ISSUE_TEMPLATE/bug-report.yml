@@ -1,4 +1,6 @@
 name: Bug Report 🐛
+about: Report a bug so we can fix it
+
 labels: ["bug"]
 body:
   - type: markdown
