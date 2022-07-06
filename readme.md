@@ -5,7 +5,7 @@
 
 **ℹ Note:** [Only `ISSUE_TEMPLATES` needs to be in the `.github/` folder][not-issue-templates]. All other [supported files][supported-files] can be in the root folder.
 
-**💡 Tip:** You can fork this repository and use it for your own user namespace GitHub conofiguration!
+**💡 Tip:** You can fork this repository and use it for your own `<user>/*` GitHub repo config defaults!
 
 - [ ] [`code_of_conduct.md`][code-of-conduct]
 - [ ] [`contributing.md`][contributing]
