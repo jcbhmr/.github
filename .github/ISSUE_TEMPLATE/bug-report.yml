@@ -1,0 +1,8 @@
+name: Bug Report 🐛
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out a bug report! 🤗
+        **🎗️ Reminder:** Check to see if someone else already reported this 😉
