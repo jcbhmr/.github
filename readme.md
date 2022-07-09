@@ -3,8 +3,6 @@
 
 **❓ What?** [Learn more about the `.github` repository on the GitHub Docs][github-docs]
 
-**ℹ Note:** [Only `ISSUE_TEMPLATES` needs to be in the `.github/` folder][not-issue-templates]. All other [supported files][supported-files] can be in the root folder.
-
 **💡 Tip:** You can fork this repository and use it for your own `<user>/*` GitHub repo config defaults!
 
 - [ ] [`code_of_conduct.md`][code-of-conduct]
@@ -14,6 +12,8 @@
 - [ ] [PR templates][pr-template]
 - [ ] [`security.md`][security]
 - [ ] [`support.md`][support]
+
+**ℹ Note:** [Only `ISSUE_TEMPLATES` needs to be in the `.github/` folder][not-issue-templates]. All other [supported files][supported-files] can be in the root folder.
 
 <!-- These URLs are all SO LONG that I moved them down here -->
 
