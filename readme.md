@@ -1,5 +1,5 @@
 # Default Community Files
-🔧⚙ Default repo config files for [all my repositories](https://github.com/jcbhmr?tab=repositories)
+🔧 Default repo config files for [all my repositories](https://github.com/jcbhmr?tab=repositories)
 
 **❓ What?** [Learn more about the `.github` repository on the GitHub Docs][github-docs]
 
