@@ -29,6 +29,8 @@ Navigate to the `about:settings` panel in your browser and find the <kbd>🐱 Ca
 
 ![Settings menu screenshot](https://user-images.githubusercontent.com/61068799/179654341-08a94eb9-092f-404a-9db6-4ed6b24da772.png)
 
+![Options page](https://user-images.githubusercontent.com/61068799/179840507-25481b9d-5e9a-4343-aa19-549755f8be75.png)
+
 <dl>
   <div>
     <dt>Do you want dog images too?</dt>
