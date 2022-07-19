@@ -16,6 +16,7 @@
 
 <!-- ℹ NOTE: Only `ISSUE_TEMPLATES` needs to be in the `.github/` folder. All other supported files can be in the root folder. -->
 
-Other things that might be useful for GitHub repositories
-- [Readme template outline](./readme-template.md)
-- [Common badges list](./badges.md)
+## Other Helpful GitHub Resources
+
+- [Readme hypothetical example](./readme-example.md)
+- [Common badges table](./badges-table.md)
