@@ -19,4 +19,4 @@
 ## Other Helpful GitHub Resources
 
 - [Hypothetical readme example](./readme-example.md)
-- [Common badges table](./badges-table.md)
+- [Quick link badges](./badges.md)
