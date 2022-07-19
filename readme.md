@@ -18,5 +18,5 @@
 
 ## Other Helpful GitHub Resources
 
-- [Readme hypothetical example](./readme-example.md)
+- [Hypothetical readme example](./readme-example.md)
 - [Common badges table](./badges-table.md)
