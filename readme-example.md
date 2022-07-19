@@ -9,7 +9,7 @@
 </div>
 <br />
 
-**🚀** Super easy self-deployment process<br />
+**🚀** Super easy installation<br />
 **⚡** Blazingly fast image loader<br />
 **💻** Works on [all modern browsers](#compatability)<br />
 
@@ -27,12 +27,15 @@ npx cat-homepage
 
 Navigate to the `about:settings` panel in your browser and find the <kbd>Cat Homepage Settings</kbd> option on the left side
 
-![image](https://user-images.githubusercontent.com/61068799/179654341-08a94eb9-092f-404a-9db6-4ed6b24da772.png)
+![Settings menu screenshot](https://user-images.githubusercontent.com/61068799/179654341-08a94eb9-092f-404a-9db6-4ed6b24da772.png)
 
-In this page, you will have two options to configure
-
-**Do you want dog images too?**<br />
-This option will enable dog _and_ cat images on your homepage. It will _not remove the cat images_.
-
-**Which search engine do you want to use?**<br />
-You can change the default search engine (Google) to any of the supported search engines listed
+<dl>
+  <div>
+    <dt>Do you want dog images too?</dt>
+    <dd>This option will enable dog <em>and</em> cat images on your homepage. It will not remove the cat images.</dd>
+  </div>
+  <div>
+    <dt>Which search engine do you want to use?</dt>
+    <dd>You can change the default search engine (Google) to any of the supported search engines listed</dd>
+  </div>
+</dl>
