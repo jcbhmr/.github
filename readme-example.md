@@ -25,7 +25,7 @@ npx cat-homepage
 
 ### Options
 
-Navigate to the `about:settings` panel in your browser and find the <kbd>Cat Homepage Settings</kbd> option on the left side
+Navigate to the `about:settings` panel in your browser and find the <kbd>🐱 Cat Homepage</kbd> option on the left side
 
 ![Settings menu screenshot](https://user-images.githubusercontent.com/61068799/179654341-08a94eb9-092f-404a-9db6-4ed6b24da772.png)
 
