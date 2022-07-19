@@ -5,7 +5,7 @@
 
 **💡 Tip:** You can fork this repository and tweak it to fit your own GitHub default preferences!
 
-[List of files that can go in user/org-scoped `.github` repo](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file#supported-file-types)
+[Special GitHub community files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file#supported-file-types)
 - [x] [`code_of_conduct.md`](./code_of_conduct.md) ([docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)) -- Derived from [Contributor Covenant v2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
 - [ ] `contributing.md` ([docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors))
 - [ ] `funding.yml` ([docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository))
@@ -14,9 +14,7 @@
 - [ ] `security.md` ([docs](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository))
 - [ ] `support.md` ([docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-support-resources-to-your-project))
 
-<!-- ℹ NOTE: Only `ISSUE_TEMPLATES` needs to be in the `.github/` folder. All other supported files can be in the root folder. -->
-
-## Other Helpful GitHub Resources
-
+Other files included in this repository
 - [Hypothetical readme example](./readme-example.md)
 - [Quick link badges](./badges.md)
+- 
