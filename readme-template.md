@@ -1,8 +1,6 @@
 # Cat Homepage
 🐱 Make your homepage full of cats!
 
-[![License](https://img.shields.io/github/license/jcbhmr/.github?style=for-the-badge)](./license.txt) [![Latest release](https://img.shields.io/github/v/release/jcbhmr/.github?include_prereleases&style=for-the-badge)](https://github.com/jcbhmr/.github/releases)
-
 <br />
 <div align="center">
 
