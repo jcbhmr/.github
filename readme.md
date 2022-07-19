@@ -14,7 +14,7 @@
 - [ ] `security.md` ([docs](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository))
 - [ ] `support.md` ([docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-support-resources-to-your-project))
 
-**ℹ Note:** [Only `ISSUE_TEMPLATES` needs to be in the `.github/` folder](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file#supported-file-types:~:text=Issue%20templates%20and%20their%20configuration%20file%20must%20be%20in%20a%20folder%20called%20.github/ISSUE_TEMPLATE). All other supported files can be in the root folder.
+<!-- Only `ISSUE_TEMPLATES` needs to be in the `.github/` folder. All other supported files can be in the root folder. -->
 
 Other things that might be useful for GitHub repositories
 - [Readme template outline](./readme-template.md)
