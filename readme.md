@@ -11,7 +11,7 @@
 - [ ] `funding.yml` ([docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository))
 - [ ] Issue templates ([docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates))
 - [ ] PR templates ([docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates))
-- [ ] `security.md` ([docs](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository))
+- [x] [`security.md`](./security.md) ([docs](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository))
 - [ ] `support.md` ([docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-support-resources-to-your-project))
 
 Other files included in this repository
