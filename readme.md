@@ -17,4 +17,7 @@
 Other files included in this repository
 - [Hypothetical readme example](./readme-example.md)
 - [Quick link badges](./badges.md)
-- 
+
+Other open source GitHub links
+- [Community standards for this repository](https://github.com/jcbhmr/.github/community)
+- [opensource.guide](https://opensource.guide)
