@@ -5,7 +5,7 @@
 
 **💡 Tip:** You can fork this repository and tweak it to fit your own GitHub default preferences!
 
-[Special GitHub community files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file#supported-file-types)
+[Special GitHub community files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file#supported-file-types) in this repository
 - [x] [`code_of_conduct.md`](./code_of_conduct.md) ([docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)) -- Derived from [Contributor Covenant v2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
 - [ ] `contributing.md` ([docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors))
 - [ ] `funding.yml` ([docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository))
