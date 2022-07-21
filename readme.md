@@ -21,3 +21,4 @@ Other files included in this repository
 Other open source GitHub links
 - [Community standards for this repository](https://github.com/jcbhmr/.github/community)
 - [opensource.guide](https://opensource.guide)
+- [choosealicense.com](https://choosealicense.com/)
