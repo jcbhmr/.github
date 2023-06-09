@@ -73,6 +73,18 @@ try to be patient with us as we make sure that it meets all the necessary
 🗣️ If you're interested in more debate about favorite link styles, check out
 [spenserblack/spenserblack#42].
 
+## JavaScript
+
+### `package.json`
+
+Inside `package.json` there are usually a lot of scripts. Most of those can be
+hooked into the default `prepack` `test`, `pretest`, `prepare`, etc. npm hooks.
+
+For those that can't, like `build:docs`, it's nice to use **the existing
+convention**. For the workflow where you need to build documentation in a
+separate command than your code being compiled, use the `build:docs` script
+name. It's the most common.
+
 <!-- prettier-ignore-start -->
 [GitHub Search]: https://github.com/search
 [spenserblack/spenserblack#42]: https://github.com/spenserblack/spenserblack/discussions/42
