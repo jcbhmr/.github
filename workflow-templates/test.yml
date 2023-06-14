@@ -23,6 +23,7 @@ concurrency:
 jobs:
   test-nodejs:
     strategy:
+      fail-fast: false
       matrix:
         node-version: ["16", "18", "20"]
     runs-on: ubuntu-latest
