@@ -2,13 +2,12 @@ name: Check version bump
 on:
   pull_request:
     branches: $default-branch
-    paths:
-      - src/**
-      - test/**
-      - "*rc"
-      - "*config*"
-      - "*.json"
-      - "*.lock"
+    paths-ignore:
+      - docs/**
+      - .github/**
+      - .gitignore
+      - LICENSE
+      - README.md
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}
   cancel-in-progress: true

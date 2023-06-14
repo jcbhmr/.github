@@ -2,23 +2,21 @@ name: Test
 on:
   push:
     branches: $default-branch
-    paths:
-      - src/**
-      - test/**
-      - "*rc"
-      - "*config*"
-      - "*.json"
-      - "*.lock"
-      - .github/workflows/test.yml
+    paths-ignore:
+      - docs/**
+      - .github/**
+      - "!.github/workflows/test.yml"
+      - .gitignore
+      - LICENSE
+      - README.md
   pull_request:
-    paths:
-      - src/**
-      - test/**
-      - "*rc"
-      - "*config*"
-      - "*.json"
-      - "*.lock"
-      - .github/workflows/test.yml
+    paths-ignore:
+      - docs/**
+      - .github/**
+      - "!.github/workflows/test.yml"
+      - .gitignore
+      - LICENSE
+      - README.md
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}
   cancel-in-progress: true
