@@ -4,6 +4,7 @@ on:
     branches: $default-branch
     paths-ignore:
       - docs/**
+      - wiki/**
       - .github/**
       - .gitignore
       - LICENSE
