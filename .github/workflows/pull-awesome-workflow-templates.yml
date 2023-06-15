@@ -1,4 +1,4 @@
-name: Pull wiki
+name: Pull jcbhmr/awesome-workflow-templates
 on:
   push:
     branches: main
