@@ -17,11 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: |
-          dir="$(mktemp -d)"
-          trap 'rm -rf "$dir"' SIGINT SIGTERM ERR EXIT
-          GH_TOKEN=$GITHUB_TOKEN gh repo clone jcbhmr/awesome-workflow-templates "$dir"
-          rsync -av --del "$dir/workflow-templates/" workflow-templates/
+      - uses: actions/checkout@v3
+        with:
+          repository: jcbhmr/awesome-workflow-templates
+          path: ../awesome-workflow-templates
+      - run: rsync -av --del ../awesome-workflow-templates/workflow-templates/ workflow-templates/
       - uses: EndBug/add-and-commit@v9
         with:
           message: '[skip actions] Pull jcbhmr/awesome-workflow-templates'
