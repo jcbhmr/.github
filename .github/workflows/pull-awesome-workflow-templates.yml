@@ -17,12 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          persist-credentials: false
       - run: |
           dir="$(mktemp -d)"
           trap 'rm -rf "$dir"' SIGINT SIGTERM ERR EXIT
-          git clone https://github.com/jcbhmr/awesome-workflow-templates.git "$dir"
+          git clone https://x:x@github.com/jcbhmr/awesome-workflow-templates.git "$dir"
           rsync -av --del "$dir/workflow-templates/" workflow-templates/
       - uses: EndBug/add-and-commit@v9
         with:
