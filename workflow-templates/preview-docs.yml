@@ -20,7 +20,7 @@ jobs:
         with:
           cache: npm
       - run: npm ci
-      - run: npm run build-docs
+      - run: npm run build:docs
       - uses: actions/upload-artifact@v3
         with:
           name: preview-docs
