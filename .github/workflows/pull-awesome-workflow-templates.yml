@@ -1,0 +1,27 @@
+name: Pull wiki
+on:
+  push:
+    branches: main
+    paths: .github/workflows/pull-awesome-workflow-templates.yml
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+jobs:
+  pull-awesome-workflow-templates:
+    permissions:
+      contents: write
+      id-token: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          dir="$(mktemp -d)"
+          trap 'rm -rf "$dir"' SIGINT SIGTERM ERR EXIT
+          git clone https://github.com/jcbhmr/awesome-workflow-templates.git "$dir"
+          rsync -av --del "$dir/workflow-templates/" workflow-templates/
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: '[skip actions] Pull jcbhmr/awesome-workflow-templates'
