@@ -17,11 +17,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          path: main
       - uses: actions/checkout@v3
         with:
           repository: jcbhmr/awesome-workflow-templates
-          path: ../awesome-workflow-templates
-      - run: rsync -av --del ../awesome-workflow-templates/workflow-templates/ workflow-templates/
+          path: awesome-workflow-templates
+      - run: rsync -av --del awesome-workflow-templates/workflow-templates/ main/workflow-templates/
       - uses: EndBug/add-and-commit@v9
         with:
+          cwd: main
           message: '[skip actions] Pull jcbhmr/awesome-workflow-templates'
