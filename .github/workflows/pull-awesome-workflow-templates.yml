@@ -20,7 +20,7 @@ jobs:
       - run: |
           dir="$(mktemp -d)"
           trap 'rm -rf "$dir"' SIGINT SIGTERM ERR EXIT
-          gh repo clone jcbhmr/awesome-workflow-templates "$dir"
+          GH_TOKEN=$GITHUB_TOKEN gh repo clone jcbhmr/awesome-workflow-templates "$dir"
           rsync -av --del "$dir/workflow-templates/" workflow-templates/
       - uses: EndBug/add-and-commit@v9
         with:
