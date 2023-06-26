@@ -77,13 +77,18 @@ try to be patient with us as we make sure that it meets all the necessary
 
 ### `package.json`
 
-Inside `package.json` there are usually a lot of scripts. Most of those can be
-hooked into the default `prepack` `test`, `pretest`, `prepare`, etc. npm hooks.
+Inside `package.json` there are usually a lot of scripts. Don't worry about them
+too much, but try to make sure that the names of the scripts _roughly_ match the
+intended usecase. For instance, here are some common de facto standard script
+names:
 
-For those that can't, like `build:docs`, it's nice to use **the existing
-convention**. For the workflow where you need to build documentation in a
-separate command than your code being compiled, use the `build:docs` script
-name. It's the most common.
+- **`dev`:** Start any sort of development-related server, watcher, or other
+  preview for development. Use this for things like HTTP servers with
+  `nodemon index.js` or `vite`.
+- **`lint`:** Use this to perform linting checks! Try to make sure you document
+  if `npm run lint` will change the local files (apply linting fixes) or just
+  validate the current state against the linting rules. This is where you might
+  put `tsc` or `prettier`.
 
 <!-- prettier-ignore-start -->
 [GitHub Search]: https://github.com/search
