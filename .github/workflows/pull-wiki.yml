@@ -27,4 +27,4 @@ jobs:
           git reset --hard
       - uses: EndBug/add-and-commit@v9
         with:
-          message: '[skip actions] Pull wiki'
+          message: "[skip actions] Pull wiki"
