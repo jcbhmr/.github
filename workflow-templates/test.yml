@@ -1,4 +1,4 @@
-name: Test
+name: Test Node.js
 on:
   push:
     branches: $default-branch
@@ -6,7 +6,7 @@ on:
       - docs/**
       - wiki/**
       - .github/**
-      - "!.github/workflows/test.yml"
+      - "!.github/workflows/test-nodejs.yml"
       - .gitignore
       - LICENSE
       - README.md
@@ -15,7 +15,7 @@ on:
       - docs/**
       - wiki/**
       - .github/**
-      - "!.github/workflows/test.yml"
+      - "!.github/workflows/test-nodejs.yml"
       - .gitignore
       - LICENSE
       - README.md
@@ -37,5 +37,3 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
-  # test-deno:
-  # test-bun:
