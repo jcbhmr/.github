@@ -1,8 +1,0 @@
-runs:
-  using: composite
-  steps:
-    - shell: bash
-      run: |
-        printenv
-      env:
-        TEST: ${{ toJSON(github) }}
