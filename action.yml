@@ -4,3 +4,5 @@ runs:
     - shell: bash
       run: |
         printenv
+      env:
+        TEST: ${{ toJSON(github) }}
