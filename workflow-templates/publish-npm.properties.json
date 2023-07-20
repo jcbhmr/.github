@@ -1,7 +1,0 @@
-{
-  "name": "Publish an npm package",
-  "description": "Run 'npm publish' when a new release is created.",
-  "iconName": "_package",
-  "categories": ["Continuous integration", "JavaScript", "npm"],
-  "filePatterns": ["package.json"]
-}

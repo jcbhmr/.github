@@ -1,7 +1,0 @@
-{
-  "name": "Run JavaScript tests",
-  "description": "Run 'npm test' on PRs and pushes to the default branch.",
-  "iconName": "_test-tube",
-  "categories": ["Continuous integration", "JavaScript", "Node.js"],
-  "filePatterns": ["package.json"]
-}

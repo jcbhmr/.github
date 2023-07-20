@@ -1,7 +1,0 @@
-{
-  "name": "Check version bump in PRs",
-  "description": "Makes sure that the 'package.json' 'version' key has been incremented in PRs.",
-  "iconName": "_up-arrow",
-  "categories": ["Automation", "Node.js"],
-  "filePatterns": ["package.json"]
-}

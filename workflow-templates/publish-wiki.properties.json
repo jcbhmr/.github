@@ -1,7 +1,0 @@
-{
-  "name": "Publish wiki",
-  "description": "Publishes 'wiki/' to the GitHub wiki when a new Release is made.",
-  "iconName": "_open-book",
-  "categories": ["Deployment", "Documentation"],
-  "filePatterns": ["wiki"]
-}

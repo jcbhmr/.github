@@ -1,7 +1,0 @@
-{
-  "name": "Deploy the docs website",
-  "description": "Run 'npm run build-docs' and then deploy 'docs/dist/' to GitHub Pages on each Release.",
-  "iconName": "_books",
-  "categories": ["Deployment", "Website", "Documentation"],
-  "filePatterns": ["package.json"]
-}

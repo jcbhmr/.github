@@ -1,7 +1,0 @@
-{
-  "name": "Preview the docs website",
-  "description": "Run 'npm run build-docs' and save 'docs/dist/' as an Artifact for the default branch and PRs.",
-  "iconName": "_eyes",
-  "categories": ["Deployment", "Website", "Documentation"],
-  "filePatterns": ["package.json"]
-}
