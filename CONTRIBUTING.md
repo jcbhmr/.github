@@ -17,7 +17,3 @@ report 🐛, a feature request 💡, or a Pull Request 🚀.
 5. 🔖 Commit & push your changes
 6. 🔁 Open a PR to get your changes merged
 7. 🚀 Profit!
-
-👩‍⚖️ When contributing code to this project, you must agree that you have authored
-100% of the content, that you have the necessary rights to the content and that
-the content you contribute may be provided under the project license.
